@@ -1,4 +1,4 @@
-<h1 align="center">Simple Blog</h1>
+<h1 align="center"> Blog</h1>
 
 
 ![demo](https://github.com/Ela-Fhd/simple_blog/blob/main/images/demo-1.png)
