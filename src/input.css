@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.border-hide .comment:last-child {
+  border-bottom-width: 0 !important;
+}

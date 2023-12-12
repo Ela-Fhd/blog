@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./font/css/all.css" />
+    <link rel="stylesheet" href="/dist/output.css" />
+    <script src="js/script.js" async defer></script>
+    <title>blog</title>
+  </head>
+  <body class="text-slate-600 font-roboto">
+    <!------------------ START HEADER NAVBAR --------------------->
+    <nav class="w-full bg-slate-300 shadow-sm shadow-slate-300">
+      <div class="container px-7 xl:px-10 py-3 flex items-center">
+        <a href="index.html" class="flex-shrink-0">
+          <img src="./images/Logo.png" alt="" class="w-20 h-14" />
+        </a>
+
+        <div class="items-center ml-10 lg:flex hidden">
+          <a
+            href="index.html"
+            class="capitalize font-medium transition-all ease-linear duration-500 hover:text-blue-700"
+          >
+            <span><i class="fa fa-home"></i></span>
+            home
+          </a>
+        </div>
+
+        <div class="items-center ml-10 lg:flex hidden">
+          <a
+            href="#about"
+            class="capitalize font-medium transition-all ease-linear duration-500 hover:text-blue-700"
+          >
+            <span><i class="fa fa-file-alt"></i></span>
+            about
+          </a>
+        </div>
+
+        <div class="items-center ml-10 lg:flex hidden">
+          <a
+            href="#contact"
+            class="capitalize font-medium transition-all ease-linear duration-500 hover:text-blue-700"
+          >
+            <span><i class="fa fa-phone"></i></span>
+            contact
+          </a>
+        </div>
+
+        <!--------SEARCH BAR START ---------->
+        <div class="relative ml-auto lg:block hidden">
+          <span class="absolute top-2 left-2">
+            <i class="fa fa-search"></i>
+          </span>
+          <input
+            type="text"
+            placeholder="Search..."
+            class="pl-8 pr-2 py-2 rounded-3xl bg-gray-200 focus:outline-none"
+          />
+        </div>
+        <!--------SEARCH BAR END ---------->
+
+        <!-------LOGIN / REGISTER START ------>
+        <div class="mx-5">
+          <span><i class="fa fa-user-alt"></i></span>
+          <span class="transition duration-500 hover:text-blue-600 font-medium"
+            ><a href="#login">login</a></span
+          >
+          /
+          <span class="transition duration-500 hover:text-blue-600 font-medium"
+            ><a href="#register">register</a></span
+          >
+        </div>
+        <!-------LOGIN / REGISTER END  ------->
+
+        <div
+          class="cursor-pointer hover:text-blue-600 transition text-2xl block lg:hidden ml-auto"
+          id="open_sidebar"
+        >
+          <i class="fa fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+    <!------------------ END HEADER NAVBAR --------------------->
+
+    <!----------------- MAIN SECTION START ---------------------->
+    <div class="py-12 bg-gray-200">
+      <div class="container mx-auto md:flex gap-5 px-10">
+        <!--------------- CENTER SIDE START----------------->
+        <div class="w-full xl:w-9/12 lg:w-8/12">
+          <!------------------- MAIN POST START ------------------>
+          <div
+            class="shadow-sm shadow-white bg-white overflow-hidden rounded-lg"
+          >
+            <div href="#" class="overflow-hidden block">
+              <img
+                src="/images/random_post_01.jpg"
+                alt="main_post"
+                class="w-full cursor-pointer hover:scale-110 duration-500 object-cover"
+              />
+            </div>
+            <div class="p-4">
+              <div>
+                <h2 class="font-bold text-gray-700">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Labore, officiaLorem ipsum dolor sit amet consectetur
+                </h2>
+
+                <p class="text-gray-600 text-sm mt-3 font-medium">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Officia officiis molestiae quae totam magni aut ratione
+                  blanditiis quidem dolorum mollitia repellendus earum vel
+                  dignissimos, minus voluptatibus. Eum asperiores id voluptatem
+                  officia perspiciatis perferendis mollitia dignissimos nulla
+                </p>
+
+                <p
+                  class="text-gray-500 text-sm mt-3 font-medium px-4 py-3 border border-green-600 bg-green-200 cursor-pointer"
+                >
+                  <span>
+                    <i class="fa fa-quote-left mr-2"></i>
+                  </span>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Officia officiis molestiae quae totam magni aut ratione
+                  blanditiis quidem dolorum mollitia repellendus earum vel
+                  dignissimos, minus voluptatibus. Eum asperiores id voluptatem
+                  officia perspiciatis perferendis mollitia dignissimos nulla
+                  <span>
+                    <i class="fa fa-quote-right ml-2"></i>
+                  </span>
+                </p>
+
+                <p class="text-gray-600 text-sm mt-3 font-medium">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Officia officiis molestiae quae totam magni aut ratione
+                  blanditiis quidem dolorum mollitia repellendus earum vel
+                  dignissimos, minus voluptatibus. Eum asperiores id voluptatem
+                  officia perspiciatis perferendis mollitia dignissimos nulla
+                </p>
+
+                <p class="text-gray-600 text-sm mt-3 font-medium">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Officia officiis molestiae quae totam magni aut ratione
+                  blanditiis quidem dolorum mollitia repellendus earum vel
+                  dignissimos, minus voluptatibus. Eum asperiores id voluptatem
+                  officia perspiciatis perferendis mollitia dignissimos nulla
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem,
+                  quas sint reprehenderit ut velit quae dolor distinctio dicta
+                  nobis commodi culpa neque maiores aspernatur excepturi labore
+                  cupiditate voluptate ipsa, reiciendis aut. Tempora voluptatum
+                  nostrum atque sint pariatur reprehenderit qui aperiam. Rerum,
+                  temporibus! Suscipit maiores, quibusdam repellendus ad rerum
+                  maxime voluptates.
+                </p>
+              </div>
+
+              <div
+                class="flex items-center space-x-5 mt-5 text-sm text-gray-400 font-medium cursor-pointer"
+              >
+                <div>
+                  <i class="far fa-file-alt mr-1"></i>
+                  <span class="capitalize">post no 1 </span>
+                </div>
+                <div>
+                  <i class="far fa-clock"></i>
+                  <span>April 14 , 2022</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!------------------- MAIN POST START ------------------>
+
+          <!------------------- COMMENTS START ------------------->
+          <div
+            class="w-full bg-white rounded-lg p-4 shadow-sm shadow-white mt-8"
+          >
+            <!---------------  HEADER COMMENTS START  ---------------->
+            <div>
+              <h3 class="font-bold uppercase text-gray-600 cursor-pointer">
+                post a comment
+              </h3>
+              <p class="text-xs text-gray-400 mt-2">12 comments</p>
+            </div>
+            <!---------------  HEADER COMMENTS END  ---------------->
+            <!------------- ALL COMMENTS START ----------->
+            <div class="space-y-5 mt-4">
+              <div class="border-hide">
+                <div
+                  class="comment flex gap-3 border-b border-gray-300 py-5 px-4"
+                >
+                  <div class="flex-shrink-0 cursor-pointer">
+                    <img
+                      src="images/user_01.png"
+                      alt=""
+                      class="w-12 h-12 rounded-full ring ring-orange-400 ring-offset-[3px]"
+                    />
+                  </div>
+                  <div class="flex-grow">
+                    <p class="capitalize font-semibold text-gray-600">
+                      elahe fahmideh
+                    </p>
+                    <p class="capitalize text-xs text-gray-400 mt-1">
+                      12 may 2022 at 2:30pm
+                    </p>
+                    <p class="mt-2 mb-1">this is very nice post :)</p>
+                    <button
+                      class="text-xs text-gray-500 capitalize px-2 border border-gray-400 rounded-sm hover:bg-green-600 hover:text-white hover:border-green-700 transition duration-300"
+                    >
+                      reply
+                    </button>
+                    <button
+                      class="text-xs text-gray-500 capitalize px-2 border border-gray-400 rounded-sm hover:bg-red-600 hover:text-white hover:border-red-700 transition duration-300"
+                    >
+                      delete
+                    </button>
+                  </div>
+                </div>
+
+                <div
+                  class="comment flex gap-3 border-b border-gray-300 py-5 px-4"
+                >
+                  <div class="flex-shrink-0 cursor-pointer">
+                    <img
+                      src="images/user_02.png"
+                      alt=""
+                      class="w-12 h-12 rounded-full ring ring-orange-400 ring-offset-[3px]"
+                    />
+                  </div>
+                  <div class="flex-grow">
+                    <p class="capitalize font-semibold text-gray-600">
+                      john doe
+                    </p>
+                    <p class="capitalize text-xs text-gray-400 mt-1">
+                      22 June 2022 at 8:49pm
+                    </p>
+                    <p class="mt-2 mb-1">this post is very usefull 👌</p>
+                    <button
+                      class="text-xs text-gray-500 capitalize px-2 border border-gray-400 rounded-sm hover:bg-green-600 hover:text-white hover:border-green-700 transition duration-300"
+                    >
+                      reply
+                    </button>
+                    <button
+                      class="text-xs text-gray-500 capitalize px-2 border border-gray-400 rounded-sm hover:bg-red-600 hover:text-white hover:border-red-700 transition duration-300"
+                    >
+                      delete
+                    </button>
+                  </div>
+                </div>
+
+                <div
+                  class="comment flex gap-3 border-b border-gray-300 py-5 px-4"
+                >
+                  <div class="flex-shrink-0 cursor-pointer">
+                    <img
+                      src="images/user_03.png"
+                      alt=""
+                      class="w-12 h-12 rounded-full ring ring-orange-400 ring-offset-[3px]"
+                    />
+                  </div>
+                  <div class="flex-grow">
+                    <p class="capitalize font-semibold text-gray-600">
+                      lily smith
+                    </p>
+                    <p class="capitalize text-xs text-gray-400 mt-1">
+                      17 Desember 2022 at 11:25am
+                    </p>
+                    <p class="mt-2 mb-1">very nice 💕</p>
+                    <button
+                      class="text-xs text-gray-500 capitalize px-2 border border-gray-400 rounded-sm hover:bg-green-600 hover:text-white hover:border-green-700 transition duration-300"
+                    >
+                      reply
+                    </button>
+                    <button
+                      class="text-xs text-gray-500 capitalize px-2 border border-gray-400 rounded-sm hover:bg-red-600 hover:text-white hover:border-red-700 transition duration-300"
+                    >
+                      delete
+                    </button>
+                  </div>
+                </div>
+
+                <div
+                  class="comment flex gap-3 border-b border-gray-300 py-5 px-4"
+                >
+                  <div class="flex-shrink-0 cursor-pointer">
+                    <img
+                      src="images/user_04.png"
+                      alt=""
+                      class="w-12 h-12 rounded-full ring ring-orange-400 ring-offset-[3px]"
+                    />
+                  </div>
+                  <div class="flex-grow">
+                    <p class="capitalize font-semibold text-gray-600">
+                      jack nilsen
+                    </p>
+                    <p class="capitalize text-xs text-gray-400 mt-1">
+                      2 April 2022 at 7:30pm
+                    </p>
+                    <p class="mt-2 mb-1">not bad 🙌</p>
+                    <button
+                      class="text-xs text-gray-500 capitalize px-2 border border-gray-400 rounded-sm hover:bg-green-600 hover:text-white hover:border-green-700 transition duration-300"
+                    >
+                      reply
+                    </button>
+                    <button
+                      class="text-xs text-gray-500 capitalize px-2 border border-gray-400 rounded-sm hover:bg-red-600 hover:text-white hover:border-red-700 transition duration-300"
+                    >
+                      delete
+                    </button>
+                  </div>
+                </div>
+
+                <div
+                  class="comment flex gap-3 border-b border-gray-300 py-5 px-4"
+                >
+                  <div class="flex-shrink-0 cursor-pointer">
+                    <img
+                      src="images/user_05.png"
+                      alt=""
+                      class="w-12 h-12 rounded-full ring ring-orange-400 ring-offset-[3px]"
+                    />
+                  </div>
+                  <div class="flex-grow">
+                    <p class="capitalize font-semibold text-gray-600">
+                      alexander jones
+                    </p>
+                    <p class="capitalize text-xs text-gray-400 mt-1">
+                      28 july 2022 at 2:30am
+                    </p>
+                    <p class="mt-2 mb-1">very nice 👍</p>
+                    <button
+                      class="text-xs text-gray-500 capitalize px-2 border border-gray-400 rounded-sm hover:bg-green-600 hover:text-white hover:border-green-700 transition duration-300"
+                    >
+                      reply
+                    </button>
+                    <button
+                      class="text-xs text-gray-500 capitalize px-2 border border-gray-400 rounded-sm hover:bg-red-600 hover:text-white hover:border-red-700 transition duration-300"
+                    >
+                      delete
+                    </button>
+                  </div>
+                </div>
+
+                <div
+                  class="comment flex gap-3 border-b border-gray-300 py-5 px-4"
+                >
+                  <div class="flex-shrink-0 cursor-pointer">
+                    <img
+                      src="images/user_06.png"
+                      alt=""
+                      class="w-12 h-12 rounded-full ring ring-orange-400 ring-offset-[3px]"
+                    />
+                  </div>
+                  <div class="flex-grow">
+                    <p class="capitalize font-semibold text-gray-600">
+                      Albert Chandler
+                    </p>
+                    <p class="capitalize text-xs text-gray-400 mt-1">
+                      17 September 2022 at 5:33pm
+                    </p>
+                    <p class="mt-2 mb-1">good post🤜</p>
+                    <button
+                      class="text-xs text-gray-500 capitalize px-2 border border-gray-400 rounded-sm hover:bg-green-600 hover:text-white hover:border-green-700 transition duration-300"
+                    >
+                      reply
+                    </button>
+                    <button
+                      class="text-xs text-gray-500 capitalize px-2 border border-gray-400 rounded-sm hover:bg-red-600 hover:text-white hover:border-red-700 transition duration-300"
+                    >
+                      delete
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <form action="view.html" class="mt-5">
+                <textarea
+                  type="text"
+                  class="w-full h-32 border border-gray-300 transition focus:outline-none focus:border-blue-300 px-4 py-3 rounded-lg resize-none"
+                  placeholder="type your comment..."
+                ></textarea>
+                <button
+                  type="submit"
+                  class="my-3 px-4 py-2 flex items-center bg-blue-600 text-white font-sm rounded-lg border border-blue-400 hover:bg-blue-700 transition duration-300 capitalize"
+                >
+                  send
+                </button>
+              </form>
+            </div>
+            <!------------ ALL COMMENTS END -------------->
+          </div>
+          <!------------------- COMMENTS END --------------------->
+        </div>
+        <!--------------- CENTER SIDE END---------------->
+
+        <!--------------- RIGHT SIDE START----------------->
+        <div class="w-full xl:w-3/12 lg:w-4/12 mt-5 md:mt-0">
+          <!------------- SOCIALS START ------------------->
+          <div class="w-full bg-white rounded-lg p-4 shadow-sm shadow-white">
+            <h3 class="font-bold capitalize text-gray-600 cursor-pointer">
+              socials
+            </h3>
+            <div class="flex gap-3 mt-4">
+              <a
+                href="#"
+                class="border border-gray-400 w-8 h-8 flex items-center justify-center rounded-sm"
+              >
+                <i
+                  class="fab fa-facebook-f text-blue-600 hover:scale-125 transition"
+                ></i>
+              </a>
+
+              <a
+                href="#"
+                class="border border-gray-400 w-8 h-8 flex items-center justify-center rounded-sm"
+              >
+                <i
+                  class="fab fa-twitter text-blue-400 hover:scale-125 transition"
+                ></i>
+              </a>
+
+              <a
+                href="#"
+                class="border border-gray-400 w-8 h-8 flex items-center justify-center rounded-sm"
+              >
+                <i
+                  class="fab fa-google text-red-600 hover:scale-125 transition"
+                ></i>
+              </a>
+
+              <a
+                href="#"
+                class="border border-gray-400 w-8 h-8 flex items-center justify-center rounded-sm"
+              >
+                <i
+                  class="fab fa-pinterest-p text-red-500 hover:scale-125 transition"
+                ></i>
+              </a>
+
+              <a
+                href="#"
+                class="border border-gray-400 w-8 h-8 flex items-center justify-center rounded-sm"
+              >
+                <i
+                  class="fab fa-linkedin-in text-blue-600 hover:scale-125 transition"
+                ></i>
+              </a>
+
+              <a
+                href="#"
+                class="border border-gray-400 w-8 h-8 flex items-center justify-center rounded-sm"
+              >
+                <i
+                  class="fab fa-instagram text-red-500 hover:scale-125 transition"
+                ></i>
+              </a>
+            </div>
+          </div>
+          <!------------- SOCIALS END ------------------->
+
+          <!-------------- CATEGORY START ----------------->
+          <div
+            class="bg-white rounded-lg p-4 shadow-sm shadow-white mt-4 hidden xl:block"
+          >
+            <h3 class="font-bold capitalize text-gray-600 cursor-pointer">
+              categories
+            </h3>
+            <div class="mt-4 font-bold text-gray-600 space-y-2">
+              <a
+                href="#"
+                class="flex items-center hover:text-blue-600 transition duration-300 text-sm"
+              >
+                <span class="mr-1">
+                  <i class="fa fa-folder-open"></i>
+                </span>
+                <span class="uppercase">html</span>
+                <span class="ml-auto">(20)</span>
+              </a>
+
+              <a
+                href="#"
+                class="flex items-center hover:text-blue-600 transition duration-300 text-sm"
+              >
+                <span class="mr-1">
+                  <i class="fa fa-folder-open"></i>
+                </span>
+                <span class="uppercase">css</span>
+                <span class="ml-auto">(10)</span>
+              </a>
+
+              <a
+                href="#"
+                class="flex items-center hover:text-blue-600 transition duration-300 text-sm"
+              >
+                <span class="mr-1">
+                  <i class="fa fa-folder-open"></i>
+                </span>
+                <span class="uppercase">js</span>
+                <span class="ml-auto">(17)</span>
+              </a>
+
+              <a
+                href="#"
+                class="flex items-center hover:text-blue-600 transition duration-300 text-sm"
+              >
+                <span class="mr-1">
+                  <i class="fa fa-folder-open"></i>
+                </span>
+                <span class="uppercase">bootstrap</span>
+                <span class="ml-auto">(11)</span>
+              </a>
+
+              <a
+                href="#"
+                class="flex items-center hover:text-blue-600 transition duration-300 text-sm"
+              >
+                <span class="mr-1">
+                  <i class="fa fa-folder-open"></i>
+                </span>
+                <span class="uppercase">tailwind</span>
+                <span class="ml-auto">(15)</span>
+              </a>
+
+              <a
+                href="#"
+                class="flex items-center hover:text-blue-600 transition duration-300 text-sm"
+              >
+                <span class="mr-1">
+                  <i class="fa fa-folder-open"></i>
+                </span>
+                <span class="uppercase">less</span>
+                <span class="ml-auto">(12)</span>
+              </a>
+
+              <a
+                href="#"
+                class="flex items-center hover:text-blue-600 transition duration-300 text-sm"
+              >
+                <span class="mr-1">
+                  <i class="fa fa-folder-open"></i>
+                </span>
+                <span class="uppercase">git</span>
+                <span class="ml-auto">(14)</span>
+              </a>
+              <a
+                href="#"
+                class="flex items-center hover:text-blue-600 transition duration-300 text-sm"
+              >
+                <span class="mr-1">
+                  <i class="fa fa-folder-open"></i>
+                </span>
+                <span class="uppercase">react</span>
+                <span class="ml-auto">(25)</span>
+              </a>
+            </div>
+          </div>
+          <!-------------- CATEGORY END ----------------->
+
+          <!-------------- POPULAR POSRT START ------------>
+          <div
+            class="w-full bg-white rounded-lg p-4 shadow-sm shadow-white mt-4"
+          >
+            <h3 class="font-bold capitalize text-gray-600 cursor-pointer">
+              populr post
+            </h3>
+
+            <div class="mt-5 space-y-3">
+              <a href="#" class="flex group">
+                <div class="flex-shrink-0">
+                  <img
+                    src="images/popular_01.jpg"
+                    alt="random_01"
+                    class="h-14 rounded-lg object-cover transition duration-500 hover:brightness-125"
+                  />
+                </div>
+                <div class="ml-2 flex-grow">
+                  <h5
+                    class="font-bold leading-5 text-sm group-hover:text-blue-700 transition duration-500"
+                  >
+                    Lorem ipsum dolor sit amet consecte
+                  </h5>
+                  <div class="text-gray-400 text-sm flex items-center">
+                    <span class="mr-1"><i class="far fa-clock"></i></span>
+                    <span class="text-[12px]">April 14 , 2022</span>
+                  </div>
+                </div>
+              </a>
+
+              <a href="#" class="flex group">
+                <div class="flex-shrink-0">
+                  <img
+                    src="images/popular_02.jpg"
+                    alt="random_01"
+                    class="h-14 rounded-lg object-cover transition duration-500 hover:brightness-110"
+                  />
+                </div>
+                <div class="ml-2 flex-grow">
+                  <h5
+                    class="font-bold leading-5 text-sm group-hover:text-blue-700 transition duration-500"
+                  >
+                    Lorem ipsum dolor sit amet consecte
+                  </h5>
+                  <div class="text-gray-400 text-sm flex items-center">
+                    <span class="mr-1"><i class="far fa-clock"></i></span>
+                    <span class="text-[12px]">September 13 , 2022</span>
+                  </div>
+                </div>
+              </a>
+
+              <a href="#" class="flex group">
+                <div class="flex-shrink-0">
+                  <img
+                    src="images/popular_03.jpg"
+                    alt="random_01"
+                    class="h-14 rounded-lg object-cover transition duration-500 hover:brightness-110"
+                  />
+                </div>
+                <div class="ml-2 flex-grow">
+                  <h5
+                    class="font-bold leading-5 text-sm group-hover:text-blue-700 transition duration-500"
+                  >
+                    Lorem ipsum dolor sit amet consecte
+                  </h5>
+                  <div class="text-gray-400 text-sm flex items-center">
+                    <span class="mr-1"><i class="far fa-clock"></i></span>
+                    <span class="text-[12px]">Desember 22 , 2022</span>
+                  </div>
+                </div>
+              </a>
+
+              <a href="#" class="flex group">
+                <div class="flex-shrink-0">
+                  <img
+                    src="images/popular_04.jpg"
+                    alt="random_01"
+                    class="h-14 rounded-lg object-cover transition duration-500 hover:brightness-110"
+                  />
+                </div>
+                <div class="ml-2 flex-grow">
+                  <h5
+                    class="font-bold leading-5 text-sm group-hover:text-blue-700 transition duration-500"
+                  >
+                    Lorem ipsum dolor sit amet consecte
+                  </h5>
+                  <div class="text-gray-400 text-sm flex items-center">
+                    <span class="mr-1"><i class="far fa-clock"></i></span>
+                    <span class="text-[12px]">August 17 , 2022</span>
+                  </div>
+                </div>
+              </a>
+
+              <a href="#" class="flex group">
+                <div class="flex-shrink-0">
+                  <img
+                    src="images/popular_05.jpg"
+                    alt="random_01"
+                    class="h-14 rounded-lg object-cover transition duration-500 hover:brightness-110"
+                  />
+                </div>
+                <div class="ml-2 flex-grow">
+                  <h5
+                    class="font-bold leading-5 text-sm group-hover:text-blue-700 transition duration-500"
+                  >
+                    Lorem ipsum dolor sit amet consecte
+                  </h5>
+                  <div class="text-gray-400 text-sm flex items-center">
+                    <span class="mr-1"><i class="far fa-clock"></i></span>
+                    <span class="text-[12px]">May 28 , 2022</span>
+                  </div>
+                </div>
+              </a>
+
+              <a href="#" class="flex group">
+                <div class="flex-shrink-0">
+                  <img
+                    src="images/popular_06.jpg"
+                    alt="random_01"
+                    class="h-14 rounded-lg object-cover transition duration-500 hover:brightness-110"
+                  />
+                </div>
+                <div class="ml-2 flex-grow">
+                  <h5
+                    class="font-bold leading-5 text-sm group-hover:text-blue-700 transition duration-500"
+                  >
+                    Lorem ipsum dolor sit amet consecte
+                  </h5>
+                  <div class="text-gray-400 text-sm flex items-center">
+                    <span class="mr-1"><i class="far fa-clock"></i></span>
+                    <span class="text-[12px]">July 28 , 2022</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <!-------------- POPULAR POSRT END -------------->
+
+          <!------------------- TAGS START ----------------->
+          <div
+            class="w-full bg-white rounded-lg p-4 shadow-sm shadow-white mt-4"
+          >
+            <h3 class="font-bold capitalize text-gray-600 cursor-pointer">
+              tags
+            </h3>
+            <div class="flex flex-wrap items-center gap-3 mt-4">
+              <a
+                href="#"
+                class="px-3 py-2 border border-gray-300 flex items-center justify-center capitalize hover:bg-blue-600 hover:text-white rounded-sm transition duration-500 text-sm"
+              >
+                html
+              </a>
+
+              <a
+                href="#"
+                class="px-3 py-2 border border-gray-300 flex items-center justify-center capitalize hover:bg-blue-600 hover:text-white rounded-sm transition duration-500 text-sm"
+              >
+                css
+              </a>
+
+              <a
+                href="#"
+                class="px-3 py-2 border border-gray-300 flex items-center justify-center capitalize hover:bg-blue-600 hover:text-white rounded-sm transition duration-500 text-sm"
+              >
+                js
+              </a>
+
+              <a
+                href="#"
+                class="px-3 py-2 border border-gray-300 flex items-center justify-center capitalize hover:bg-blue-600 hover:text-white rounded-sm transition duration-500 text-sm"
+              >
+                bootstrap
+              </a>
+
+              <a
+                href="#"
+                class="px-3 py-2 border border-gray-300 flex items-center justify-center capitalize hover:bg-blue-600 hover:text-white rounded-sm transition duration-500 text-sm"
+              >
+                tailwind
+              </a>
+
+              <a
+                href="#"
+                class="px-3 py-2 border border-gray-300 flex items-center justify-center capitalize hover:bg-blue-600 hover:text-white rounded-sm transition duration-500 text-sm"
+              >
+                git
+              </a>
+
+              <a
+                href="#"
+                class="px-3 py-2 border border-gray-300 flex items-center justify-center capitalize hover:bg-blue-600 hover:text-white rounded-sm transition duration-500 text-sm"
+              >
+                material ul
+              </a>
+
+              <a
+                href="#"
+                class="px-3 py-2 border border-gray-300 flex items-center justify-center capitalize hover:bg-blue-600 hover:text-white rounded-sm transition duration-500 text-sm"
+              >
+                react js
+              </a>
+
+              <a
+                href="#"
+                class="px-3 py-2 border border-gray-300 flex items-center justify-center capitalize hover:bg-blue-600 hover:text-white rounded-sm transition duration-500 text-sm"
+              >
+                css grid
+              </a>
+            </div>
+          </div>
+          <!------------------- TAGS END ------------------->
+        </div>
+        <!--------------- RIGHT SIDE END----------------->
+      </div>
+    </div>
+    <!----------------- MAIN SECTION END ------------------------>
+
+    <!------------------- MENU MOBILE VIEW START -------------------->
+    <div
+      class="w-full h-full bg-black bg-opacity-30 fixed top-0 z-30 opacity-0 invisible transition-all duration-500"
+      id="sidebar_wrapper"
+    >
+      <div
+        class="w-80 bg-white h-full fixed top-0 shadow-lg shadow-white p-4 flex flex-col -left-full transition-all duration-500 z-50 overflow-y-scroll"
+        id="sidebar"
+      >
+        <div
+          class="ml-auto cursor-pointer hover:text-red-600"
+          id="close_sidebar"
+        >
+          <i class="fa fa-close"></i>
+        </div>
+        <!--------SEARCH BAR START ---------->
+        <div
+          class="relative w-full flex justify-center border-b border-gray-300 pb-3"
+        >
+          <span class="absolute top-2 left-6">
+            <i class="fa fa-search"></i>
+          </span>
+          <input
+            type="text"
+            placeholder="Search..."
+            class="pl-12 pr-2 py-2 rounded-3xl bg-gray-200 focus:outline-none"
+          />
+        </div>
+        <!--------SEARCH BAR END ---------->
+
+        <!----------------- MENUE START  ----------------->
+        <div class="p-4 space-y-5">
+          <h3 class="font-bold capitalize text-gray-600 cursor-pointer">
+            menue
+          </h3>
+          <div class="items-center flex">
+            <a
+              href="index.html"
+              class="capitalize font-medium transition-all ease-linear duration-500 hover:text-blue-700"
+            >
+              <span><i class="fa fa-home"></i></span>
+              home
+            </a>
+          </div>
+
+          <div class="items-center flex">
+            <a
+              href="#about"
+              class="capitalize font-medium transition-all ease-linear duration-500 hover:text-blue-700"
+            >
+              <span><i class="fa fa-file-alt"></i></span>
+              about
+            </a>
+          </div>
+
+          <div class="items-center flex">
+            <a
+              href="#contact"
+              class="capitalize font-medium transition-all ease-linear duration-500 hover:text-blue-700"
+            >
+              <span><i class="fa fa-phone"></i></span>
+              contact
+            </a>
+          </div>
+        </div>
+        <!------------------ MENUE END  ----------------->
+
+        <!-------------- CATEGORY START ----------------->
+        <div class="p-4">
+          <h3 class="font-bold capitalize text-gray-600 cursor-pointer">
+            categories
+          </h3>
+          <div class="mt-4 font-bold text-gray-600 space-y-2">
+            <a
+              href="#"
+              class="flex items-center hover:text-blue-600 transition duration-300 text-sm"
+            >
+              <span class="mr-1">
+                <i class="fa fa-folder-open"></i>
+              </span>
+              <span class="uppercase">html</span>
+              <span class="ml-auto">(20)</span>
+            </a>
+
+            <a
+              href="#"
+              class="flex items-center hover:text-blue-600 transition duration-300 text-sm"
+            >
+              <span class="mr-1">
+                <i class="fa fa-folder-open"></i>
+              </span>
+              <span class="uppercase">css</span>
+              <span class="ml-auto">(10)</span>
+            </a>
+
+            <a
+              href="#"
+              class="flex items-center hover:text-blue-600 transition duration-300 text-sm"
+            >
+              <span class="mr-1">
+                <i class="fa fa-folder-open"></i>
+              </span>
+              <span class="uppercase">js</span>
+              <span class="ml-auto">(17)</span>
+            </a>
+
+            <a
+              href="#"
+              class="flex items-center hover:text-blue-600 transition duration-300 text-sm"
+            >
+              <span class="mr-1">
+                <i class="fa fa-folder-open"></i>
+              </span>
+              <span class="uppercase">bootstrap</span>
+              <span class="ml-auto">(11)</span>
+            </a>
+
+            <a
+              href="#"
+              class="flex items-center hover:text-blue-600 transition duration-300 text-sm"
+            >
+              <span class="mr-1">
+                <i class="fa fa-folder-open"></i>
+              </span>
+              <span class="uppercase">tailwind</span>
+              <span class="ml-auto">(15)</span>
+            </a>
+
+            <a
+              href="#"
+              class="flex items-center hover:text-blue-600 transition duration-300 text-sm"
+            >
+              <span class="mr-1">
+                <i class="fa fa-folder-open"></i>
+              </span>
+              <span class="uppercase">less</span>
+              <span class="ml-auto">(12)</span>
+            </a>
+
+            <a
+              href="#"
+              class="flex items-center hover:text-blue-600 transition duration-300 text-sm"
+            >
+              <span class="mr-1">
+                <i class="fa fa-folder-open"></i>
+              </span>
+              <span class="uppercase">git</span>
+              <span class="ml-auto">(14)</span>
+            </a>
+            <a
+              href="#"
+              class="flex items-center hover:text-blue-600 transition duration-300 text-sm"
+            >
+              <span class="mr-1">
+                <i class="fa fa-folder-open"></i>
+              </span>
+              <span class="uppercase">react</span>
+              <span class="ml-auto">(25)</span>
+            </a>
+          </div>
+        </div>
+        <!-------------- CATEGORY END ----------------->
+      </div>
+    </div>
+    <!------------------- MENU MOBILE VIEW END ---------------------->
+
+    <!----------------- FOOTER START ---------------->
+    <footer class="w-full py-2 px-3 border-t border-gray-300">
+      <p class="text-center capitalize text-gray-500 text-sm cursor-pointer">
+        Copyright &copy; 2022 all reserver by
+        <span class="font-bold">elahe fahmideh</span>
+      </p>
+    </footer>
+    <!----------------- FOOTER END ----------------->
+  </body>
+</html>
